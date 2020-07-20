@@ -3,17 +3,10 @@
  <filter name="Remove Isolated pieces (wrt Face Num.)">
   <Param type="RichInt" value="10000" name="MinComponentSize"/>
  </filter>
- <filter name="Simplfication: MC Edge Collapse"/>
  <filter name="Remove Unreferenced Vertex"/>
- <filter name="Laplacian Smooth">
-  <Param type="RichInt" value="1" name="stepSmoothNum"/>
-  <Param type="RichBool" value="true" name="Boundary"/>
-  <Param type="RichBool" value="true" name="cotangentWeight"/>
-  <Param type="RichBool" value="false" name="Selected"/>
- </filter>
  <filter name="Poisson-disk Sampling">
   <Param type="RichInt" value="30000" name="SampleNum"/>
-  <Param type="RichAbsPerc" value="0" min="0" name="Radius" max="1205.81"/>
+  <Param type="RichAbsPerc" value="0" min="0" name="Radius" max="1208.89"/>
   <Param type="RichInt" value="40" name="MontecarloRate"/>
   <Param type="RichBool" value="false" name="ApproximateGeodesicDistance"/>
   <Param type="RichBool" value="true" name="Subsample"/>
